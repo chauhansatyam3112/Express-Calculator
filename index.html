@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <!-- Corresponds to the HTTP POST method ; 
+    form data are included in the body of the form and sent to the server. -->
+    <form action="/" method="post">
+        <!-- we are sending our data to index.html we need to change  -->
+        <!-- it to "/" server which is our currnt server homeroot -->
+
+        <input type="text" name="num1" placeholder="number1">
+        <input type="text" name="num2" placeholder="number2">
+        <button type="submit" name="submit">Calculate</button>
+    </form>
+</body>
+</html>
